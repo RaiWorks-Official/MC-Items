@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Fire Wand",
+    "description": "Adds a Pro Wand",
+    "uuid": "68e87bf4-58e7-442a-9711-fbd568d4109e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "07098e95-c064-4404-a3f7-2ac707480f45",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+        "uuid": "8033e23a-80a6-412d-8477-298b39ebd056",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ]
+}

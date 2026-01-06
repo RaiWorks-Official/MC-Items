@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Fire Wand RP",
+    "description": "Fire Wand textures",
+    "uuid": "10043d0c-5e66-47f6-8c64-2e7bed76a2e5",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "efa9355f-8fec-400e-a02c-c80a2b5c4b75",
+      "version": [1, 0, 0]
+    }
+  ]
+}
