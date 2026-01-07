@@ -1,9 +1,9 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Fire Wand",
-    "description": "Adds a Pro Wand",
-    "uuid": "68e87bf4-58e7-442a-9711-fbd568d4109e",
+    "name": "Rel Wands",
+    "description": "Adds Wands | added new wand * fire",
+    "uuid": "a3f7c4d9-2b8e-4f1a-9c6d-5e8b3a7f2c1d",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -16,9 +16,15 @@
     {
       "type": "script",
       "language": "javascript",
-        "uuid": "8033e23a-80a6-412d-8477-298b39ebd056",
+      "uuid": "8033e23a-80a6-412d-8477-298b39ebd056",
       "version": [1, 0, 0],
       "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.9.0"
     }
   ]
 }
